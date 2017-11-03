@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CPool	test_pool.cpp	/^CPool<_Ty>::CPool(int num_que, int que_len):$/;"	f	class:CPool
+CPool	test_pool.cpp	/^class CPool$/;"	c	file:
+MAX_TASK_NUM	test_pool.cpp	8;"	d	file:
+_t_task_func	test_pool.cpp	/^struct _t_task_func$/;"	s	file:
+enter	test_pool.cpp	/^int CPool<_Ty>::enter(_Ty &e)$/;"	f	class:CPool
+func	test_pool.cpp	/^	void (CPool<_Ty>::*func)(long arg);	$/;"	m	struct:_t_task_func	file:
+g_task	test_pool.cpp	/^t_task_func g_task[MAX_TASK_NUM] = {0x0};$/;"	v
+i	test_pool.cpp	/^	int	i;$/;"	m	struct:__anon1	file:
+init	test_pool.cpp	/^int CPool<_Ty>::init()$/;"	f	class:CPool
+ipara	test_pool.cpp	/^	int ipara;$/;"	m	struct:_t_task_func	file:
+m_cond_manager	test_pool.cpp	/^	pthread_cond_t	* m_cond_manager;$/;"	m	class:CPool	file:
+m_cur_que	test_pool.cpp	/^	int m_cur_que;$/;"	m	class:CPool	file:
+m_mtx_cur	test_pool.cpp	/^	pthread_mutex_t m_mtx_cur;$/;"	m	class:CPool	file:
+m_mtx_manager	test_pool.cpp	/^	pthread_mutex_t * m_mtx_manager;$/;"	m	class:CPool	file:
+m_num_que	test_pool.cpp	/^	int m_num_que;$/;"	m	class:CPool	file:
+m_que_len	test_pool.cpp	/^	int m_que_len;$/;"	m	class:CPool	file:
+m_que_manager	test_pool.cpp	/^	queue<_Ty> * m_que_manager;$/;"	m	class:CPool	file:
+main	test_pool.cpp	/^int main()$/;"	f
+pobj	test_pool.cpp	/^	CPool<_Ty> *pobj;$/;"	m	struct:_t_task_func	file:
+pobj	test_pool.cpp	/^	void *pobj;$/;"	m	struct:__anon1	file:
+proc	test_pool.cpp	/^void CPool<_Ty>::proc(long arg)$/;"	f	class:CPool
+t_arg	test_pool.cpp	/^} t_arg;$/;"	t	typeref:struct:__anon1	file:
+t_func	test_pool.cpp	/^typedef void (*t_func)(long arg);$/;"	t	file:
+t_task_func	test_pool.cpp	/^typedef _t_task_func<int> t_task_func;$/;"	t	file:
+worker_cb	test_pool.cpp	/^void *CPool<_Ty>::worker_cb(void *arg)$/;"	f	class:CPool
+~CPool	test_pool.cpp	/^CPool<_Ty>::~CPool()$/;"	f	class:CPool
